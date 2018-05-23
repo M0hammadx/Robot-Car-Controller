@@ -37,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
             //Change the activity.
             i.putExtra(EXTRA_ADDRESS, address); //this will be received at ledControl (class) Activity
             startActivity(i);
+
+
         }
     };
 
